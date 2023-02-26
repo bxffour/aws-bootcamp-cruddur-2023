@@ -12,7 +12,7 @@
 - Spent most of the week debugging but couldn't resolve issue.
 
 - frontend dockerfile
-	```Dockerfile
+```Dockerfile
 FROM node:16.18-alpine as builder
 
 WORKDIR /intermediate
@@ -35,7 +35,7 @@ CMD ["npm", "start"]
 ```
 
 - backend dockerfile
-	```Dockerfile
+```Dockerfile
 
 FROM python:3.10-slim-buster
 
