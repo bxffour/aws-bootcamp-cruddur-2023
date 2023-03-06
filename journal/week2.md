@@ -270,3 +270,6 @@ def init_rollbar():
 ```
 
 * This code will initialize Rollbar in my Flask application and connect it to Flask's signal system, so that any exceptions thrown by the app will be reported to Rollbar. I also need to make sure to set the `ROLLBAR_ACCESS_TOKEN` environment variable in my `.env` file or in my deployment environment, so that Rollbar can authenticate my application.
+
+### Issues
+- I struggled very much with a merge conflict.
